@@ -15,3 +15,5 @@ EXPOSE 8000
 
 # Default command to run your application
 CMD ["python", "main.py"]
+
+RUN pip install --no-cache-dir -r requirements.txt
